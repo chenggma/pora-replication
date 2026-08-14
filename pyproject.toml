@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pora-replication"
+version = "0.1.0"
+description = "Unofficial independent implementation of the PORA collision-risk metric (arXiv:2501.16480)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Cheng Ma" }]
+dependencies = ["numpy>=1.24"]
+
+[tool.setuptools]
+packages = ["pora"]
