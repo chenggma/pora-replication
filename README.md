@@ -38,6 +38,22 @@ Implemented, mapping to the paper's pipeline:
 | Occupancy sources (constant-velocity Gaussian) | `pora/occupancy_sources.py` |
 | TTC / TTS baselines the paper compares against | `pora/baselines.py` |
 
+## The pipeline, in pictures
+
+![Safety box and AV-frame occupancy](figures/fig_av_frame.png)
+
+Left: the conditional collision probability field - 1 inside the core
+rectangle, linear decay to the safety-box edge. Right: global occupancy
+resampled into the ego frame at t = 1.5 s; the oncoming foe's probability
+mass is entering the box's leading edge.
+
+![Occupancy evolution](figures/fig_occupancy_evolution.png)
+
+![Per-step PORA](figures/fig_pora_horizon.png)
+
+Every figure regenerates from the implementation alone:
+`python figures/make_figures.py` (needs matplotlib).
+
 ## Reproducibility gaps
 
 Places where the arXiv text does not pin down the computation, and the
