@@ -2,19 +2,26 @@
 
 [![tests](https://github.com/chenggma/pora-replication/actions/workflows/tests.yml/badge.svg)](https://github.com/chenggma/pora-replication/actions/workflows/tests.yml)
 
-**Unofficial, independent implementation of the PORA collision-risk metric.
-I am not an author of the paper.** Everything here is re-implemented from
-the public arXiv text alone:
+**Unofficial reimplementation of the PORA collision-risk metric.
+I am not an author of the paper.** Everything here is written from the
+public arXiv text:
 
 > Wang, Yeo, Paiva, Utke, Delle Monache, *Dynamic Risk Assessment for
 > Autonomous Vehicles from Spatio-Temporal Probabilistic Occupancy
 > Heatmaps*, [arXiv:2501.16480](https://arxiv.org/abs/2501.16480).
 
-No code, data, or unpublished material from the authors' lab was used. The
-paper states its official code will be released upon publication; when it
-is, prefer it as the reference implementation and treat this repository as
-what it is - an independent replication, including of the places where the
-paper under-specifies itself (see the gaps table below).
+**Disclosure.** I spent one semester (Sept-Dec 2025) as a student researcher
+in the authors' lab, working in this area. This implementation was written
+afterward, from the public arXiv text; I did not copy code, data, or
+unpublished material from the lab. But I cannot claim to be a fully
+independent replicator - I was in the room, and I cannot rule out that
+unpublished context informs choices made here. Read this as a
+*former-member* reimplementation, not an independent replication.
+
+The paper states its official code will be released upon publication; when
+it is, prefer it as the reference implementation. What this repository is
+still good for is the places where the paper under-specifies itself (see the
+gaps table below).
 
 ## Scope
 
